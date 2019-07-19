@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Introducing Hyde
+title: Hi, I’m Pedro, .NET Developer.
 ---
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+An ambitious school leaver with strong grades and a commitment to pursuing a career in coding. Completed an enjoyable period of work experience at Casino Azores, demonstrating a natural aptitude for interacting with customers and providing service with a smile. Studied at OpenClassrooms, achieving .NET developer course. Keen to secure an entry-level junior backend developer role, which will provide opportunities for further development and progression.
 
 ### Built on Poole
 

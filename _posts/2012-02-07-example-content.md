@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example content
+title: Education
 ---
 
 
@@ -27,7 +27,7 @@ HTML defines a long list of available inline tags, a complete list of which can 
 
 Most of these elements are styled by browsers with few modifications on our part.
 
-## Heading
+## Experience
 
 Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 
