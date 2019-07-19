@@ -5,24 +5,24 @@ title: Hi, I’m Pedro, .NET Developer.
 
 An ambitious school leaver with strong grades and a commitment to pursuing a career in coding. Completed an enjoyable period of work experience at Casino Azores, demonstrating a natural aptitude for interacting with customers and providing service with a smile. Studied at OpenClassrooms, achieving .NET developer course. Keen to secure an entry-level junior backend developer role, which will provide opportunities for further development and progression.
 
-### Built on Poole
+### EDUCATION
 
 Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Hyde here) includes the following:
 
-* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+* 2018 - today
+* Romanti Casino Azores - Electro Mechanical Technician
+* Oct. 2017-Jun. 2018
+* EDA - Eletricidade dos açores - Azores Electricity
 
-### Hyde features
+
+### WORK EXPERIENCE
 
 In addition to the features of Poole, Hyde adds the following:
 
-* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `<body>` classes
-* [Eight optional color schemes](https://github.com/poole/hyde#themes), available via `<body>` classes
+* May 2019 - present
+* OpenClassrooms
+* 2013 - 2016
+* Electronics and Telecommunication Technician
 
 [Head to the readme](https://github.com/poole/hyde#readme) to learn more.
 
