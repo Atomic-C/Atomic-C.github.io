@@ -7,7 +7,7 @@ An ambitious school leaver with strong grades and a commitment to pursuing a car
 
 ### EDUCATION
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Hyde here) includes the following:
+Place a phrase here.
 
 * 2018 - today
 * Romanti Casino Azores - Electro Mechanical Technician
@@ -17,7 +17,7 @@ Poole is the Jekyll Butler, serving as an upstanding and effective foundation fo
 
 ### WORK EXPERIENCE
 
-In addition to the features of Poole, Hyde adds the following:
+Place a phrase here.
 
 * May 2019 - present
 * OpenClassrooms
@@ -26,7 +26,7 @@ In addition to the features of Poole, Hyde adds the following:
 
 [Head to the readme](https://github.com/poole/hyde#readme) to learn more.
 
-### Browser support
+### References
 
 Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
 
