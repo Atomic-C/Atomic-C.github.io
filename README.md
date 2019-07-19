@@ -1,268 +1,198 @@
-# [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+# Strange Case - Bootstrap Clone of Hyde for Hugo
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.6-blue.svg)](https://jekyllrb.com/)
-[![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/mmistakes)
+Strange Case was built for people who like the original Jekyll theme [Hyde](https://github.com/poole/hyde) and its [port to Hugo](https://github.com/spf13/hyde) but prefer to use [Bootstrap](http://getbootstrap.com).
 
-Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building personal sites, blogs, and portfolios. As the name implies, styling is purposely minimalistic to be enhanced and customized by you :smile:.
+The theme was built from an empty Bootstrap 3 template with the goal of easy modification for end users. The code is as simple as possible - clearly formatted HTML and a single stylesheet. It's a two column responsive design and currently includes version 3.3.7 of Bootstrap.
 
-:sparkles: See what's new in the [CHANGELOG](CHANGELOG.md).
+Pull requests are welcome.
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/mmistakes) to continue developing and maintaining it.**
+![Strange Case Screenshot](https://i.imgur.com/i7aarpG.png)
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
 
-**Note:** The theme uses the [jekyll-include-cache](https://github.com/benbalter/jekyll-include-cache) plugin which will need to be installed in your `Gemfile` and added to the `plugins` array of `_config.yml`. Otherwise you'll throw `Unknown tag 'include_cached'` errors at build.
+## Contents
 
-[![Minimal Mistakes live preview][2]][1]
+- [Installation](#installation)
+- [Customization](#customization)
+  - [Sidebar](#sidebar)
+  - [Color Schemes](#color-schemes)
+  - [Analytics](#analytics)
+  - [Example Config](#example-config)
+- [Author](#author)
+- [Inspired By](#inspired-by)
+- [License](#license)
 
-[1]: https://mmistakes.github.io/minimal-mistakes/
-[2]: screenshot.png (live preview)
-
-![layout examples](screenshot-layouts.png)
-
-## Notable features
-
-- Bundled as a "theme gem" for easier installation/upgrading.
-- Compatible with GitHub Pages.
-- Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Nine different skins (color variations).
-- Several responsive layout options (single, archive index, search, splash, and paginated home page).
-- Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data.
-- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
-- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), static-based via [Staticman](https://staticman.net/), and [utterances](https://utteranc.es/)).
-- [Google Analytics](https://www.google.com/analytics/) support.
-- UI localized text in English (default), Brazilian Portuguese (Português brasileiro), Chinese, Danish, Dutch, French (Français), German (Deutsch), Greek, Hindi (हिंदी), Hungarian, Indonesian, Italian (Italiano), Japanese, Korean, Malayalam, Nepali (Nepalese), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), and Vietnamese.
-
-## Skins (color variations)
-
-This theme comes in nine different skins (including the default one).
-
-| `air` | `contrast` | `dark` |
-| --- | --- | --- |
-| ![air skin](https://mmistakes.github.io/minimal-mistakes/assets/images/air-skin-archive.png) | ![contrast skin](https://mmistakes.github.io/minimal-mistakes/assets/images/contrast-skin-archive.png) | ![dark skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dark-skin-archive.png) |
-
-| `dirt` | `mint` | `sunrise` |
-| --- | --- | --- |
-| ![dirt skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dirt-skin-archive.png) | ![mint skin](https://mmistakes.github.io/minimal-mistakes/assets/images/mint-skin-archive.png) | ![sunrise skin](https://mmistakes.github.io/minimal-mistakes/assets/images/sunrise-skin-archive.png) |
-
-| `aqua` | `neon` | `plum` |
-| --- | --- | --- |
-| ![aqua skin](https://mmistakes.github.io/minimal-mistakes/assets/images/aqua-skin-archive.png) | ![neon skin](https://mmistakes.github.io/minimal-mistakes/assets/images/neon-skin-archive.png) | ![plum skin](https://mmistakes.github.io/minimal-mistakes/assets/images/plum-skin-archive.png) |
-
-## Demo pages
-
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
-
-Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
-
-[header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
-[gallery-post]: https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/
-[html-tags-post]: https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/
-[syntax-post]: https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/
-[sample-collection]: https://mmistakes.github.io/minimal-mistakes/recipes/chocolate-chip-cookies/
-[categories-archive]: https://mmistakes.github.io/minimal-mistakes/categories/
-[tags-archive]: https://mmistakes.github.io/minimal-mistakes/tags/
-[year-archive]: https://mmistakes.github.io/minimal-mistakes/year-archive/
 
 ## Installation
 
-There are three ways to install: as a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes), as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible), or forking/directly copying all of the theme files into your project.
+Installing **Strange Case** is easy. Simple clone this repo to `themes/` in your Hugo folder.
 
-### Gem-based method
+    ~$ cd your-hugo-folder/themes/
+    ~$ git clone https://github.com/ExchangeRate-API/strange-case.git
 
-With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`, and `_sass` are stored in the theme’s gem, hidden from your immediate view. Yet all of the necessary directories will be read and processed during Jekyll’s build process.
+Next, open the `config.toml` file in the base of the Hugo folder and ensure the theme is set to `strange-case`.
 
-This allows for easier installation and updating as you don't have to manage any of the theme files. To install:
+    theme = "strange-case"
 
-1. Add the following to your `Gemfile`:
 
-   ```ruby
-   gem "minimal-mistakes-jekyll"
-   ```
+## Customization
 
-2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
+There are various options you can easily set from your `config.toml` file.
 
-   ```bash
-   bundle
-   ```
+This text will appear after the Title of your site in your `<title>` meta tag:
 
-3. Set the `theme` in your project's Jekyll `_config.yml` file:
+	description = "A Hugo Theme built with Bootstrap"
 
-   ```yaml
-   theme: minimal-mistakes-jekyll
-   ```
 
-To update the theme run `bundle update`.
+### Sidebar
 
-### Remote theme method
+This text will appear in the sidebar immediately under your site's Title:
 
-Remote themes are similar to Gem-based themes, but do not require `Gemfile` changes or whitelisting making them ideal for sites hosted with GitHub Pages.
+	sidebarDescription = "A Hugo Theme built with Bootstrap"
 
-To install:
+This text will appear in a free paragraph below the Title & sidebarDescription and above the menu links. Set it to "" if you don't want it.
 
-1. Create/replace the contents of your `Gemfile` with the following:
+	sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
 
-   ```ruby
-   source "https://rubygems.org"
+You can also include useful menu links by including `"menu=main"` items in your `config.toml`. Example:
 
-   gem "github-pages", group: :jekyll_plugins
-   ```
+	[[menu.main]]
+		name = "Hugo"
+		post = "<span class='glyphicon glyphicon-fire'></span>"
+		url = "http://gohugo.io"
 
-2. Add `jekyll-include-cache` to the `plugins` array of your `_config.yml`.
+You can optionally use the `pre` and `post` vars to include HTML before or after the `name` in the resulting links.
 
-3. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
+You can use the `"contact_email"` field in `[params]` to set a mailto: link the in the sidebar. Leave blank if you don't want it.
 
-   ```bash
-   bundle
-   ```
 
-4. Add `remote_theme: "mmistakes/minimal-mistakes@4.16.5"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
+### Color Schemes
 
-**Looking for an example?** Fork the [Minimal Mistakes remote theme starter](https://github.com/mmistakes/mm-github-pages-starter) for the quickest method of getting a GitHub Pages hosted site up and running. Replace sample content with your own and configure as needed.
+In keeping with our attempt to replicate the original Hyde in Bootstrap we've included some colour scheme options. These are not the same as in the original, but we used palettes from the same [Base16](https://github.com/chriskempson/base16) project.
 
-## Usage
+![Strange Case in Light Brown](https://i.imgur.com/oLjV8LV.png)
 
-For detailed instructions on how to configure, customize, add/migrate content, and more read the [theme's documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
+The themes are:
 
----
+- Dark Brown (`colorScheme="scheme-darkbrown"`)
+- Light Brown (`colorScheme="scheme-lightbrown"`)
+- Green (`colorScheme="scheme-green"`)
+- Orange (`colorScheme="scheme-orange"`)
+- Slate (`colorScheme="scheme-slate"`)
 
-## Contributing
+And then a bonus theme that isn't from Base16:
 
-Having trouble working with the theme? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/mmistakes/minimal-mistakes/issues)? Then by all means [submit an issue](https://github.com/mmistakes/minimal-mistakes/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+- Gulf Racing (`colorScheme="scheme-gulfracing"`)
 
-Minimal Mistakes has been designed as a base for you to customize and fit your site's unique needs. Please keep this in mind when requesting features and/or submitting pull requests. If it's not something that most people will use, I probably won't consider it. When in doubt ask. 
+Using a theme is as simple as changing the `colorScheme` param in your `config.toml`. Example:
 
-This goes for author sidebar links and "share button" additions -- I have no intention of merging in every possibly option, the essentials are there to get you started :smile:.
+	baseurl = "/blog"
+	title = "Strange Case Hugo Theme"
 
-### Pull Requests
+	theme = "strange-case"
 
-When submitting a pull request:
+	[params]
+		colorScheme = "scheme-darkbrown"
+		DateFormat = "2 Jan 2006"
+		description = "A Hugo Theme built with Bootstrap"
+		sidebarDescription = "A Hugo Theme built with Bootstrap"
+		sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
 
-1. Clone the repo.
-2. Create a branch off of `master` and give it a meaningful name (e.g. `my-awesome-new-feature`).
-3. Open a pull request on GitHub and describe the feature or fix.
 
-Theme documentation and demo pages can be found in the [`/docs`](docs) if submitting improvements, typo corrections, etc.
+#### Creating Your Own Color Scheme
 
-## Development
+To create your own custom color scheme simply scroll to the end of the `strange-case.css` stylesheet in the `your-hugo-dir/themes/strange-case/static` folder and edit the template we've left there.
 
-To set up your environment to develop this theme, run `bundle install`.
+We'll happily accept pull requests for quality color schemes.
 
-To test the theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000/test/`. This starts a Jekyll server using content in the `test/` directory. As modifications are made to the theme and test site, it will regenerate and you should see the changes in the browser after a refresh.
 
----
+### Analytics
 
-## Credits
+This theme supports Hugo's native GA integration & a Piwik integration.
 
-### Creator
+For Google Analytics, simply set your UA number in your `config.toml` file. Example:
 
-**Michael Rose**
+	baseurl = "/blog"
+	title = "Strange Case Hugo Theme"
 
-- <https://mademistakes.com>
-- <https://twitter.com/mmistakes>
-- <https://github.com/mmistakes>
+	theme = "strange-case"
 
-### Icons + Demo Images:
+	googleAnalytics = "UA-123-456"
 
-- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
-- [Font Awesome](http://fontawesome.io/)
-- [Unsplash](https://unsplash.com/)
-
-### Other:
-
-- [Jekyll](http://jekyllrb.com/)
-- [jQuery](http://jquery.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
-- [GreedyNav.js](https://github.com/lukejacksonn/GreedyNav)
-- [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
-- [jQuery throttle / debounce](http://benalman.com/projects/jquery-throttle-debounce-plugin/)
-- [Lunr](http://lunrjs.com)
-
----
-
-## License
-
-The MIT License (MIT)
-
-Copyright (c) 2013-2019 Michael Rose and contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-Minimal Mistakes incorporates icons from [The Noun Project](https://thenounproject.com/) 
-creators Garrett Knoll, Arthur Shlain, and tracy tam.
-Icons are distributed under Creative Commons Attribution 3.0 United States (CC BY 3.0 US).
-
-Minimal Mistakes incorporates [Font Awesome](http://fontawesome.io/),
-Copyright (c) 2017 Dave Gandy.
-Font Awesome is distributed under the terms of the [SIL OFL 1.1](http://scripts.sil.org/OFL) 
-and [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates photographs from [Unsplash](https://unsplash.com).
-
-Minimal Mistakes incorporates [Susy](http://susy.oddbird.net/),
-Copyright (c) 2017, Miriam Eric Suzanne.
-Susy is distributed under the terms of the [BSD 3-clause "New" or "Revised" License](https://opensource.org/licenses/BSD-3-Clause).
-
-Minimal Mistakes incorporates [Breakpoint](http://breakpoint-sass.com/).
-Breakpoint is distributed under the terms of the [MIT/GPL Licenses](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [FitVids.js](https://github.com/davatron5000/FitVids.js/),
-Copyright (c) 2013 Dave Rubert and Chris Coyier.
-FitVids is distributed under the terms of the [WTFPL License](http://sam.zoy.org/wtfpl/).
-
-Minimal Mistakes incorporates [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/),
-Copyright (c) 2014-2016 Dmitry Semenov, http://dimsemenov.com.
-Magnific Popup is distributed under the terms of the MIT License.
-
-Minimal Mistakes incorporates [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll),
-Copyright (c) 2017 Karl Swedberg.
-jQuery Smooth Scroll is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [jQuery throttle / debounce](http://benalman.com/projects/jquery-throttle-debounce-plugin/),
-Copyright (c) 2010 "Cowboy" Ben Alman.
-jQuery throttle / debounce is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [GreedyNav.js](https://github.com/lukejacksonn/GreedyNav),
-Copyright (c) 2015 Luke Jackson.
-GreedyNav.js is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [Jekyll Group-By-Array](https://github.com/mushishi78/jekyll-group-by-array),
-Copyright (c) 2015 Max White <mushishi78@gmail.com>.
-Jekyll Group-By-Array is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [@allejo's Pure Liquid Jekyll Table of Contents](https://allejo.io/blog/a-jekyll-toc-in-liquid-only/),
-Copyright (c) 2017 Vladimir Jimenez.
-Pure Liquid Jekyll Table of Contents is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [Lunr](http://lunrjs.com),
-Copyright (c) 2018 Oliver Nightingale.
-Lunr is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+For Piwik, set the following two `params` as below:
+
+	baseurl = "/blog"
+	title = "Strange Case Hugo Theme"
+
+	theme = "strange-case"
+
+	[params]
+		colorScheme = "scheme-darkbrown"
+		piwikSiteID = "1234"
+		piwikURL = "www.your-site.com"
+
+
+## Example Config
+
+Here is a full example `config.toml`:
+
+	baseurl = "http://www.your-blog.com"
+	title = "Your Blog Title"
+	author = "You"
+	copyright = "Your Copyright"
+	canonifyurls = true
+	paginate = 5
+
+	googleAnalytics = ""
+
+	theme = "strange-case"
+
+	[params]
+		colorScheme = "scheme-darkbrown"
+		DateFormat = "2 Jan 2006"
+		description = "A blog about content"
+		sidebarDescription = "This is my blog about content"
+		sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
+		piwikSiteID = ""
+		piwikURL = ""
+
+	[[menu.main]]
+		name = "Hugo"
+		post = "<span class='glyphicon glyphicon-fire'></span>"
+		url = "http://gohugo.io"
+
+	[[menu.main]]
+		name = "Bootstrap"
+		post = "<span class='glyphicon glyphicon-ok'></span>"
+		url = "http://getbootstrap.com"
+
+
+## Author
+
+**ExchangeRate-API.com**
+
+- <https://github.com/ExchangeRate-API/>
+- <https://www.exchangerate-api.com>
+
+#### Strange Case Uses Bootstrap
+
+**Bootstrap**
+
+ - <http://getbootstrap.com>
+
+
+## Inspired By
+
+**Mark Otto** - creator of the Hyde Jekyll theme
+
+- <https://github.com/mdo>
+- <https://twitter.com/mdo>
+
+**Steve Francia** - porter of the original Hyde theme to Hugo
+
+- <https://github.com/spf13>
+- <https://twitter.com/spf13>
+
+
+## Licensing
+
+This theme is released under the [MIT License](LICENSE.md).
