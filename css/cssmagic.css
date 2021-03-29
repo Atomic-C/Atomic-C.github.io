@@ -1,0 +1,21 @@
+h1, h2, h3, h4, h5, h6 {
+    color: brown;
+    background-color: greenyellow;
+}
+
+head {
+    background-color: lawngreen;
+}
+
+p {
+color:black;
+background-color: lime;
+}
+
+body {
+    background-color:lightskyblue;
+}
+
+br {
+    background-color: indigo;
+}
