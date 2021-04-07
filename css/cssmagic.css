@@ -1,4 +1,9 @@
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: brown;
     background-color: greenyellow;
 }
@@ -8,14 +13,20 @@ head {
 }
 
 p {
-color:black;
-background-color: lime;
+    color: black;
+    background-color: lime;
 }
 
 body {
-    background-color:lightskyblue;
+    background-color: lightskyblue;
 }
 
 br {
     background-color: indigo;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
 }
