@@ -4,25 +4,25 @@ h3,
 h4,
 h5,
 h6 {
-    color: brown;
-    background-color: greenyellow;
+    color: black;
+    background-color: white;
 }
 
 head {
-    background-color: lawngreen;
+    background-color: white;
 }
 
 p {
     color: black;
-    background-color: lime;
+    background-color: white;
 }
 
 body {
-    background-color: lightskyblue;
+    background-color: white;
 }
 
 br {
-    background-color: indigo;
+    background-color: white;
 }
 
 .responsive {
