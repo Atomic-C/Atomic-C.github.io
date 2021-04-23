@@ -1469,6 +1469,11 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.adapt img {
+width:50%;
+height:50%;
+		}
+
 	.button-large {
 		background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
 		background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
