@@ -224,7 +224,7 @@ input, select, textarea {
 		.row > .off-3 {
 			margin-left: 25%;
 		}
-
+		
 		.row > .col-4 {
 			width: 33.33333%;
 		}
@@ -1456,7 +1456,7 @@ input, select, textarea {
 		}
 
 	.bordered-feature-image {
-		display:inline-block;
+		display:contents;
 		background: #fff url("images/bg04.png");
 		padding: 10px;
 		box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
@@ -1556,7 +1556,7 @@ input, select, textarea {
 
 				#header nav a:hover {
 					color: #f6f8f8;
-				}
+				}z
 
 		.subpage #header > .container {
 			height: 155px;
@@ -1747,7 +1747,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner p {
-				font-size: 1.75em;
+				font-size: 1.60em;
 			}
 
 		/* Header */
