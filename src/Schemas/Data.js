@@ -19,10 +19,9 @@ export const Data = {
       "JavaScript, HTML, CSS, JQuery",
       "TDD, Java, Spring, JDBC,",
       "Tomcat, MySql .C#, .NET Core",
-      "Entity Framework Core, C++; Arduino;",
-      "Tomcat",
-      "MYSQL, MSSql",
-      "Apache, IIS; MVC",
+      "Entity Framework Core, C++; Arduino",
+      "MYSQL, MicroSoft Sql",
+      "Apache, IIS, MVC",
       "WordPress, Elementor, Woocommerce",
     ],
     softSkills: [
@@ -94,7 +93,7 @@ export const Data = {
         company: "Personal Development",
         period: "Jul. 2022 - Present",
         description: [
-          "Automated testing saves both time and money, tests are written once and can be run anytime as many times as we need throughout development, that's FREE!",
+          "Automated testing saves both time and money, tests are written once and can be run anytime as many times as we need throughout development!",
         ],
       },
       {
@@ -123,7 +122,7 @@ export const Data = {
         ],
       },
       {
-        name: "Hackaton 24H",
+        name: "Hackathon 24H",
         company: "Academia de Código",
         period: "Apr. 2021 - Apr. 2021",
         description: [
