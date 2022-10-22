@@ -111,7 +111,7 @@ export const Data = {
         company: "Personal Development",
         period: "Jul. 2021 - Dec. 2021",
         description: [
-          "B2B E-Commerce store made to refresh OOP concepts, explore Entity Framework Core 5,, Forms and Validations, MVC architecture and API consumption using .NET Core 5.",
+          "B2B E-Commerce store made to refresh OOP concepts, explore .NET Core, Entiy Framework Core 5 and relationships.",
         ],
       },
       {
