@@ -121,7 +121,7 @@ export const Data = {
         ],
       },
       {
-        name: "Wall Breaker - Mexican && Trumpster wall Edition",
+        name: "Wall Breaker - Arkanoid",
         company: "Me myself & I",
         period: "Jun. 2021 - Jul. 2021",
         description: [
