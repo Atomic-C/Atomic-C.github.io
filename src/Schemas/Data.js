@@ -96,10 +96,11 @@ export const Data = {
     proyects: [
       {
         name: "Test Driven Development Lab",
-        company: "Me myself & I",
+        company: "Personal Development",
         period: "Jul. 2022 - Present",
         description: [
-          "A page to create web presence for radical sports made using MVC, MySql, Hibernate, Jpa, HTML, CSS and BootStrap",
+          "Explored Automated Testing, concluded these save time and money vs Manual Testing;",
+          "Automated testing saves both time and money, tests are written once and can be run anytime as many times as we need throughout development, that's FREE!",
         ],
       },
       {
@@ -113,7 +114,7 @@ export const Data = {
       },
       {
         name: "E-commerce Masonry",
-        company: "Me myself & I",
+        company: "Personal Development",
         period: "Jul. 2021 - Dec. 2021",
         description: [
           "B2B E-Commerce store made to refresh OOP concepts, explore database connectivity, MVC architecture and API consumption.",
@@ -122,7 +123,7 @@ export const Data = {
       },
       {
         name: "Wall Breaker - Arkanoid",
-        company: "Me myself & I",
+        company: "Personal Development",
         period: "Jun. 2021 - Jul. 2021",
         description: [
           "Inspired on 1986's block breaker arcade game published by Romstar, this game began with the purpose of learning more about Unity and C# while satirizing Trump's wall concept.",
