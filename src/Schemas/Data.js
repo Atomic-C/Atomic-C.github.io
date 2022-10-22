@@ -63,7 +63,6 @@ export const Data = {
         company: "Redshift II",
         description: [
           "Enterprise grade application development with Outsystems",
-          "Training",
           //"Canalización CI/CD con Bitbucket, Jenkins y AWS como infraestructura."
         ],
       },
