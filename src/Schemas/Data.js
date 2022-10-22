@@ -108,7 +108,6 @@ export const Data = {
         period: "Dec. 2021 - Feb. 2022",
         description: [
           "Company Website was re-built in order for Infosyncro to have it's very own internally developed product.",
-          "Development made using WordPress, Elementor, Contact Forms 7 HTML and CSS.",
           "Pre-production testing.",
         ],
       },
