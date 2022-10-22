@@ -35,103 +35,106 @@ export const Data = {
       "Critical thinking",
       "Team work",
       "Communication",
-      "Autodidacta",
+      "Self-taught",
     ],
   },
   socialMedia: {
     label: "SOCIAL",
     social: [
       {
-        label: "Maaato",
+        label: "Pedro",
         name: "linkedin",
-        url: "https://www.linkedin.com/in/matias-alfonso-lagos-gajardo",
+        url: "https://www.linkedin.com/in/pirilampo/",
         className: "bxl-linkedin-square",
       },
       {
-        label: "Maaato",
+        label: "Pedro",
         name: "github",
-        url: "https://github.com/Maaato",
+        url: "https://github.com/Atomic-C",
         className: "bxl-github",
       },
-      {
+/*      {
         label: "Maaato",
         name: "twiiter",
         url: "https://twitter.com/I_Maaato",
         className: "bxl-twitter",
-      },
+      },*/
     ],
   },
   experience: {
     works: [
       {
-        title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2021 - Actualidad",
-        company: "Banco Ripley",
+        title: "Web DEVELOPER",
+        period: "Sept. 2022 - NOW",
+        company: "Redshift II",
         description: [
-          "Desarrollo y mejora continua de microservicios REST en Java y Node.js(JS/TS).",
-          "Desarrollo y mejora continua de PWA en las tecnologías Angular, Ionic y Cordova.",
-          "Canalización CI/CD con Bitbucket, Jenkins y AWS como infraestructura."
+          "Enterprise grade application development with Outsystems",
+          "Training",
+          //"Canalización CI/CD con Bitbucket, Jenkins y AWS como infraestructura."
         ],
       },
       {
         title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2019 - Oct. 2021",
-        company: "Altiuz",
+        period: "Jun. 2021 - Jun. 2022",
+        company: "Infosyncro Consulting",
         description: [
-          "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
-          "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+          "Developed websites for companies and increased their web presence, optimized loading times by 123%;",
+          "Boosted traffic with SEO;",
+          "Consumed APIs to save time, IE: Syncfusion, Sweet Alert;",
+          "Saved time with code-first approach migrations AND LINQ;",
+          "Pre-production testing;"
         ],
       },
     ],
     academic: [
       {
-        career: "Técnico de Nivel Superior Analista Programador",
-        date: "2019",
-        institution: "Universidad Tecnológica de Chile INACAP",
+        career: "IMMERSIVE FULLSTACK PROGRAMMING BOOTCAMP",
+        date: "2021",
+        institution: "Academia de Código - AC",
       },
     ],
     proyects: [
       {
-        name: "Onboarding Digital",
-        company: "Banco de Chile",
-        period: "Nov. 2019 - Ene. 2020",
+        name: "Test Driven Development Lab",
+        company: "Me myself & I",
+        period: "Jul. 2022 - Present",
         description: [
-          "Control, desarrollo, securitización y despliegue de APIs en plataforma IBM API Connect.",
+          "A page to create web presence for radical sports made using MVC, MySql, Hibernate, Jpa, HTML, CSS and BootStrap",
         ],
       },
       {
-        name: "Captación Digital",
-        company: "Banco Ripley",
-        period: "Ene. 2020 - Feb. 2020",
+        name: "Infosyncro's Website",
+        company: "Infosyncro",
+        period: "Dec. 2021 - Feb. 2022",
         description: [
-          "Control, desarrollo y securitización de APIs en plataforma IBM API Connect.",
-          "Desarrollo frontend en Angular para el consumo de Web Services SOAP/REST apuntando a ambientes DEV/PRE-PROD/PROD como simulación.",
+          "Company Website was re-built in order for Infosyncro to have it's very own internally developed product.",
+          "Development made using WordPress, Elementor, Contact Forms 7 HTML and CSS.",
+          "Pre-production testing.",
         ],
       },
       {
-        name: "Agendamiento Remoto",
-        company: "Gobierno de Chile",
-        period: "Mar. 2020 - May. 2020",
+        name: "E-commerce Masonry",
+        company: "Me myself & I",
+        period: "Jul. 2021 - Dec. 2021",
         description: [
-          "Desarrollo frontend y mobile con las tecnologias de Angular 6 e Ionic 4 para el agendamiento de horas en centros a lo largo de todo Chile.",
+          "B2B E-Commerce store made to refresh OOP concepts, explore database connectivity, MVC architecture and API consumption.",
+          "Development was made using Microsoft Sql, EFCore 5, Forms and Validations, View Models, .NET",
         ],
       },
       {
-        name: "Altiuz Report Dynamic",
-        company: "Altiuz",
-        period: "Jun. 2020 - Jul. 2020",
+        name: "Wall Breaker - Mexican && Trumpster wall Edition",
+        company: "Me myself & I",
+        period: "Jun. 2021 - Jul. 2021",
         description: [
-          "Desarrollo de servicio Java para la generación unitaria de documentos, sin la necesidad de tener almacenada la información del mismo en una fuente de datos.",
+          "Inspired on 1986's block breaker arcade game published by Romstar, this game began with the purpose of learning more about Unity and C# while satirizing Trump's wall concept.",
         ],
       },
       {
-        name: "Desarrollos Tigo",
-        company: "Computec S.A.S",
-        period: "Ago. 2020 - Dic 2020",
+        name: "Hackaton 24H",
+        company: "Academia de Código",
+        period: "Apr. 2021 - Apr. 2021",
         description: [
-          "Desarrollo Java/Spring Boot de Web Service API REST para consulta y descarga de documentos almacenados en repositorios IBM CMOD.",
-          "Desarrollo Java CRON para transferencia de documentos XML hacia servidor SFTP.",
-          "Desarrollo Java CRON para carga de documentos PDFs hacia Azure Blob Storage.",
+          "A page to create web presence for radical sports made using MVC, MySql, Hibernate, Jpa, HTML, CSS and BootStrap",
         ],
       },
     ],
