@@ -119,7 +119,7 @@ export const Data = {
         company: "Personal Development",
         period: "Jun. 2021 - Jul. 2021",
         description: [
-          "Inspired on 1986's block breaker arcade game published by Romstar, this game began with the purpose of learning more about Unity and C# while satirizing Trump's wall concept.",
+          "Inspired on 1986's block breaker arcade game published by Romstar, this game began with the purpose of learning more about Unity and C#.",
         ],
       },
       {
