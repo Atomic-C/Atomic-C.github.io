@@ -16,6 +16,7 @@ export const Data = {
     technicalLabel: "Technologies",
     softLabel: "Skills",
     technicalSkills: [
+      "Outsystems",
       "JavaScript, HTML, CSS, JQuery",
       "TDD, Java, Spring, JDBC,",
       "Tomcat, MySql .C#, .NET Core",
