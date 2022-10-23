@@ -60,8 +60,8 @@ export const Data = {
   experience: {
     works: [
       {
-        title: "WED DEVELOPER",
-        period: "Sept. 2022 - NOW",
+        title: "WEB DEVELOPER",
+        period: "Sept. 2022 - Present",
         company: "Redshift II",
         description: [
           "Enterprise grade application development with Outsystems",
@@ -72,11 +72,11 @@ export const Data = {
         period: "Jun. 2021 - Jun. 2022",
         company: "Infosyncro Consulting",
         description: [
-          "Developed websites for companies and increased their web presence, optimized loading times y 123%",
+          "Developed websites for companies and increased their web presence, optimized loading times by 123%",
           "Boosted traffic with SEO;",
           "Consumed APIs to save time, IE: Syncfusion, Sweet Alert;",
-          "Saved time with code-first approach migrations and LINQ;",
-          "Pre-Production testing;",
+          "Saved time with code-first approach Database and LINQ;",
+          "Pre-Production Testing;",
         ],
       },
     ],
@@ -93,15 +93,15 @@ export const Data = {
         company: "Personal Development",
         period: "Jul. 2022 - Present",
         description: [
-          "Automated testing saves both time and money, tests are written once and can be run anytime as many times as we need throughout development!",
+          "My own personal Lab where I test Test Driven Development and Automated Testing, something that can save everyone time and money!",
         ],
       },
       {
         name: "Infosyncro's Website",
         company: "Infosyncro",
-        period: "Dec. 2021 - Feb. 2021",
+        period: "Dec. 2021 - Feb. 2022",
         description: [
-          "Company Website was re-built in order for Infosyncro to have it's very own internally developed product.",
+          "Company Website was rebuilt in order for Infosyncro to have it's very own internally developed product.",
         ],
       },
       {
@@ -125,7 +125,7 @@ export const Data = {
         company: "Academia de Código",
         period: "Apr. 2021 - Apr. 2021",
         description: [
-          "A website to create we presence for radical sports was made using MVC, MySql, Hibernate, JPA, HTML, CSS and BootStrap.",
+          "A website to create web presence for radical sports was made using MVC, MySql, Hibernate, JPA, HTML, CSS and BootStrap.",
         ],
       },
     ],
