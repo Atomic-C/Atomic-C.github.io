@@ -5,7 +5,7 @@ export const Data = {
     location: "Ponta Delgada, Azores",
     email: "pedro.p.sousa@sapo.pt",
     telephone: "+351 910320910",
-    image: "pedro_sousa/images/pedro_profile_pic.jpg",
+    image: "/pedro_sousa/images/pedro_profile_pic.jpg",
   },
   aboutMe: {
     label: "Profile",
