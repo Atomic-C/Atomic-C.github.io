@@ -1,21 +1,22 @@
 export const Data = {
   profile: {
-    name: "Pedro Sousa",
-    ocupation: "FullStack Developer | QA Tester",
-    location: "Ponta Delgada, Azores",
-    email: "pedro.p.sousa@sapo.pt",
+    name: "Pedro de Sousa",
+    ocupation: "OutSystems Consultant | QA Tester",
+    location: "Angra do Heroísmo, Azores",
+    email: "pedro.dev.sousa@gmail.com",
     telephone: "+351 910320910",
     image: "/pedro_sousa/images/pedro_profile_pic.jpg",
   },
   aboutMe: {
     label: "Profile",
     description:
-      "Dedicated QA Tester, extremely motivated to constantly develop my skills, grow professionally and always willing to learn new technologies.",
+      "Dedicated OutSystems Consultant, extremely motivated to constantly develop my skills, grow professionally and always willing to learn new technologies.",
   },
   skills: {
     technicalLabel: "Technologies",
     softLabel: "Skills",
     technicalSkills: [
+      "OutSystems",
       "AngularJavaScript, HTML, CSS, JQuery",
       "TDD, Java, Spring, JDBC",
       "Tomcat, C#, .NET Core",
