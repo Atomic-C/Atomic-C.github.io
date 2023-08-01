@@ -61,7 +61,7 @@ export const Data = {
   experience: {
     works: [
       {
-        title: "WEB DEVELOPER",
+        title: "OUTSYSTEMS CONSULTANT",
         period: "Sept. 2022 - Present",
         company: "Redshift II",
         description: [
